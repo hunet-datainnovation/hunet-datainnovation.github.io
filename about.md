@@ -1,15 +1,15 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: Introduction
+permalink: /Introduction/
 ---
 
-Some information about you!
+Thank you for you visit!
 
-### More Information
+### Welcome to Hunet Data Innovation Team Technology Blog
 
-A place to include any other types of information that you'd like to include about yourself.
+It mainly creates posts about the database.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[bumjun615@hunet.co.kr](mailto:bumjun615@hunet.co.kr)

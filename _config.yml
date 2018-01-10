@@ -22,8 +22,8 @@ avatar: "../images/hunetlogo-mini.png"
 navigation:
   - name: Blog
     url: /
-  - name: About
-    url: /about
+  - name: Introduction
+    url: /Introduction
   - name: Archive
     url: /archive
   - name: Tags
@@ -40,7 +40,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: hunet-datainnovation/github.io
+  github: https://github.com/hunet-datainnovation/hunet-datainnovation.github.io
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
