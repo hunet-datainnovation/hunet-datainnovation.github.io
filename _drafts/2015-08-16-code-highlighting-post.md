@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title: "Syntax Highlighting Post"
 tags: [sample post, code, highlighting]
 comments: true
