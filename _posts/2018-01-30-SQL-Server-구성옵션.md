@@ -8,7 +8,7 @@ comments: true
 
 
 ## 1. SQL Server 구성옵션이란
----
+
 ### SQL Server 구성옵션
 **[SQL Server 구성옵션](https://docs.microsoft.com/ko-kr/sql/database-engine/configure-windows/server-configuration-options-sql-server)** 이란 SQL Server Management Studio 리소스를 관리하고 최적화하도록 설정하는 옵션    
  SQL Server 또는 sp_configure 시스템 저장프로시저를 통해 구성옵션 변경   
@@ -56,7 +56,7 @@ Reconfigure는 유효하지 않은 값인지 확인해주는 옵션이고 Reconf
 sysadmin 및 serveradmin 고정 서버 역할은 ALTER SETTINGS 권한을 암시적으로 보유
 
 
----
+
 
 
 ## 2. SQL Server 주요 옵션
