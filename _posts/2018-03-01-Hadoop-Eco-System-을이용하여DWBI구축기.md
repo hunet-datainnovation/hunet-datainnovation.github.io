@@ -42,5 +42,4 @@ comments: true
 
 <img src="{{ '/images/20180301/20180301_06.png' }}" alt="">
 
-
-<img src="{{ '/images/20180301/20180301_01.png' }}" alt="">
+# 내용 작성중...
