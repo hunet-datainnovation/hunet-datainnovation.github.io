@@ -6,4 +6,3 @@ comments: true
 ---
 
 #test
-<img src="{{ '/images/20180301_01.png' }}" alt="">
