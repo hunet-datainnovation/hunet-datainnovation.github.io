@@ -7,4 +7,4 @@ comments: true
 
 # test
 
-<img src="{{ '/images/20180301_01.png' }}" alt="">
+<img src="{{ '/images/20180301/20180301_01.png' }}" alt="">
