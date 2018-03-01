@@ -5,7 +5,7 @@ tags: [Hadoop, Spark, SparkSteaming, Kafka, DW, BI, Hive, HBase, Zeppelin, Durid
 comments: true
 ---
 
-# 왜 Hadoop ECO System을 이용하였는가?
+## 왜 Hadoop ECO System을 이용하였는가?
 
 이전 회사에서 했던 방식대로 Microsoft SQL Server를 이용하여 DW를 설계하고 적당한 BI 솔루션을 선택하여 DW/BI 구축 프로젝트를 마무리 할 수도 있었지만, 데이터혁신팀이 처한 상황은 이랬다.
 
@@ -17,8 +17,7 @@ comments: true
 
 ****
 
-먼저, 예전부터 도입하고 싶었던 Elastic Stack를 도입하기로 하였다.
-그 이유는
+먼저, 예전부터 도입하고 싶었던 Elastic Stack를 도입하기로 하였다. 그 이유는
 
 ****
 
@@ -29,7 +28,12 @@ comments: true
 
 ****
 
-![석촌호수 러버덕]<img src="{{ '/images/20180301/20180301_04.png' }}" alt="">
+## 간단하게 Elastic Stack 구축
+
+가장 기본적인 구성으로 구축을 진행하였다. MSSQL 또는 MariaDB에 있는 데이터를 Beats 와 Logstash를 이용하여 Elasticsearch로 전송을 하고 Kibana로 시각화를 하였다.
+
+
+<img src="{{ '/images/20180301/20180301_04.png' }}" alt="">
 
 
 
