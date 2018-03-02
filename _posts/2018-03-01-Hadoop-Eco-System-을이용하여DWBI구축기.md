@@ -5,17 +5,10 @@ tags: [Hadoop, Spark, SparkSteaming, Kafka, DW, BI, Hive, HBase, Zeppelin, Durid
 comments: true
 ---
 
-# 목차
-****
-
-* 목차
-{:toc}
-
 ****
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [목차](#)
 - [1. 왜 Hadoop ECO System을 이용하였는가?](#1-hadoop-eco-system-)
 - [2. 데이터분석을 위한 BigData Infra 구축기](#2-bigdata-infra-)
 	- [2.1. 진입장벽이 낮은 Elastic Stack 먼저 구축을 해보자](#21-elastic-stack-)
@@ -24,6 +17,8 @@ comments: true
 - [내용 작성중...](#-)
 
 <!-- /TOC -->
+
+****
 
 # 1. 왜 Hadoop ECO System을 이용하였는가?
 
