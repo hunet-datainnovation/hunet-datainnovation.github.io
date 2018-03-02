@@ -23,15 +23,18 @@ layout: default
         			 {% assign author = site.authors | where: 'name', post.author | first %}
         			 <a href="{{ site.baseurl }}/authors/{{ post.author }}">
         					 <div class="author-image"
-        								{% if author.image %}style="background-image:url({{ author.image }});"{% endif %}>
+                   {% if author.image %}style="background-image:url({{ author.image }});"{% endif %}>
         							 <span class="sr-only">{{ author.name }}'s profile image</span>
         					 </div>
         					 <p class="author-name">{{ author.name }}</p>
         			 </a>
-        	 </div>
+        </div>
 
+        {% if site.authors %}
+          <p href="{{ site.baseurl }}/" class="site-authors"><img src="{{ author.image }}" /></p>
+        {% endif %}
 
-
+        <!-- 프로필추가 -->
         <ul class="tag">
           {% for tag in post.tags %}
           <li>
