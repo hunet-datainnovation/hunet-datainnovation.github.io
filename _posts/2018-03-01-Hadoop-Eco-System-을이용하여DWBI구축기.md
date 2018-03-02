@@ -21,6 +21,12 @@ comments: true
 	- Opensource 적극도입
 	- 향후 기계학습을 위한 인프라 기반 마련
 
+회사에서도 원하고 우리도 하고 싶었으니 아무말 안하고 고고싱 ~~
+
+****
+
+# 2. 데이터분석을 위한 BigData Infra 구축기
+
 먼저, 예전부터 도입하고 싶었던 Elastic Stack를 도입하기로 하였다. 그 이유는
 
 	- Apache Lucene 기반의 빠른 데이터검색
@@ -28,9 +34,6 @@ comments: true
 	- 뛰어난 ETL 솔루션
 	- 무엇보다 풍부한 reference와 그나마 쉽게 구축할 수 있다는 점
 
-****
-
-# 2. 데이터분석을 위한 BigData Infra 구축기
 ## 2.1. 진입장벽이 낮은 Elastic Stack 먼저 구축을 해보자
 
 가장 기본적인 구성으로 구축을 진행하였다. MSSQL 또는 MariaDB에 있는 데이터를 Beats 와 Logstash를 이용하여 Elasticsearch로 전송을 하고 Kibana로 시각화를 하였다.
