@@ -20,18 +20,18 @@ layout: default
 
         <!-- 프로필추가 -->
         <div class="post-meta">
-        			 {% assign author = site.authors | where: 'name', post.author | first %}
+        			 {% assign author = post.author | first %}
         			 <a href="{{ site.baseurl }}/authors/{{ post.author }}">
         					 <div class="author-image"
-                   {% if author.image %}style="background-image:url({{ author.image }});"{% endif %}>
-        							 <span class="sr-only">{{ author.name }}'s profile image</span>
+                   {% if post.author.image %}style="background-image:url({{ post.author.image }});"{% endif %}>
+        							 <span class="sr-only">{{ post.author.name }}'s profile image</span>
         					 </div>
-        					 <p class="author-name">{{ author.name }}</p>
+        					 <p class="author-name">{{ post.author.name }}</p>
         			 </a>
         </div>
 
-        {% if site.authors %}
-          <p href="{{ site.baseurl }}/" class="site-authors"><img src="{{ author.image }}" /></p>
+        {% if site.posts.author %}
+          <p href="{{ site.baseurl }}/" class="post-authors"><img src="{{ author.image }}" /></p>
         {% endif %}
 
         <!-- 프로필추가 -->
