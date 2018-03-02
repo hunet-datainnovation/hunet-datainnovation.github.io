@@ -18,7 +18,7 @@ layout: default
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
 
-        <!-- 프로필추가 -->
+        <!-- 프로필추가
         <div class="post-meta">
         			 {% assign author = post.author | first %}
         			 <a href="{{ site.baseurl }}/authors/{{ post.author }}">
@@ -29,11 +29,13 @@ layout: default
         					 <p class="author-name">{{ post.author.name }}</p>
         			 </a>
         </div>
-
+-->
+  <div>
         {% if posts.author %}
-          <a href="{{ site.baseurl }}/" class="post-authors"><img src="{{ author.image }}" /></a>
+          <img src="{{ author.image }}" />
+          {{ post.author.title }}
         {% endif %}
-
+    </div>
         <!-- 프로필추가 -->
         <ul class="tag">
           {% for tag in post.tags %}
