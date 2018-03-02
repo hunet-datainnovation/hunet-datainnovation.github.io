@@ -5,7 +5,7 @@ tags: [Hadoop, Spark, SparkSteaming, Kafka, DW, BI, Hive, HBase, Zeppelin, Durid
 comments: true
 ---
 
-[TOC]
+{:toc}
 
 ## 왜 Hadoop ECO System을 이용하였는가?
 
