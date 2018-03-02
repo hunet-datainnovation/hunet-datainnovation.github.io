@@ -18,6 +18,21 @@ layout: default
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
 
+        <!-- 프로필추가 -->
+        <div class="post-meta">
+        			 {% assign author = site.authors | where: 'name', post.author | first %}
+        			 <!--<a href="{{ site.baseurl }}/authors/{{ post.author }}">-->
+        					 <div class="author-image"
+        								{% if author.image %}style="background-image:url({{ author.image }});"{% endif %}>
+        							 <span class="sr-only">{{ author.name }}'s profile image</span>
+        					 </div>
+        					 <p class="author-name">{{ author.name }}</p>
+        			 <!--</a>-->
+        			 <p class="post-date">{{ post.date | date: '%Y-%m-%d %H:%M' }}</p>
+        	 </div>
+
+
+
         <ul class="tag">
           {% for tag in post.tags %}
           <li>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SQL Server 구성옵션"
+author: bumjun.park
 tags: [SQL Server 구성옵션, sp_configure]
 comments: true
 ---

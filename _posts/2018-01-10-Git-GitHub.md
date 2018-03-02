@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git & GitHub"
+author: bumjun.park
 tags: [Git, Github, GitPage]
 comments: true
 ---

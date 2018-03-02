@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Syntax Highlighting Post"
+author: bumjun.park
 tags: [sample post, code, highlighting]
 comments: true
 ---

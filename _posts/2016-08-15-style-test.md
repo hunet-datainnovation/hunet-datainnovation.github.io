@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Full and Comprehensive Style Test"
+author: bumjun.park
 tags: [test, style]
 comments: true
 ---
