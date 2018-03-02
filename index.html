@@ -18,6 +18,43 @@ layout: default
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
 
+        <!-- 프로필추가
+        <div class="post-meta">
+        			 {% assign author = post.author | first %}
+        			 <a href="{{ site.baseurl }}/authors/{{ post.author }}">
+        					 <div class="author-image"
+                   {% if post.author.image %}style="background-image:url({{ post.author.image }});"{% endif %}>
+        							 <span class="sr-only">{{ post.author.name }}'s profile image</span>
+        					 </div>
+        					 <p class="author-name">{{ post.author.name }}</p>
+        			 </a>
+        </div>
+-->
+{% if post.author %}
+   <div class="post-author-image">
+     <img class="author-image" src={{  alt="{{post.author.image}}">
+   </div> <!-- End Page Cover Image -->
+   {% else %}
+   {% endif %}
+<!--   <div class="wrap-content">
+     <header class="header-page">
+       <h1 class="page-title">{{page.title}}</h1>
+       <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+       <div class="page-author"><span>post by {{page.author}}</span></div>
+
+     </header>
+-->
+
+  <div>
+        {% if posts.author %}
+          <!--<img src="{{ author.image }}" />-->
+          {{ post.author.title }}
+        {% endif %}
+    </div>
+        <!-- 프로필추가 -->
+
+
+
         <ul class="tag">
           {% for tag in post.tags %}
           <li>
