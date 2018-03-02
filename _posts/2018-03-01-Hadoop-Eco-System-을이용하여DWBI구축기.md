@@ -14,6 +14,8 @@ comments: true
 	- [2.1. 진입장벽이 낮은 Elastic Stack 먼저 구축을 해보자](#21-elastic-stack-)
 		- [2.1.1. Elastic Stack 문제점](#211-elastic-stack-)
 	- [2.2. Zeppelin으로 간단하게 데이터통계를 보자](#22-zeppelin-)
+		- [2.2.1. Zeppelin이 총족하지 못한 한가지](#221-zeppelin-)
+	- [3. 본격적인 Hadoop ECO System을 구축하자.](#3-hadoop-eco-system-)
 - [내용 작성중...](#-)
 
 <!-- /TOC -->
@@ -70,5 +72,20 @@ Elastic Stack 자체는 너무나도 훌륭한 빅데이터 인프라 분석도�
 현업들이 어려워하는 Kibana보다 더 쉽고 항상 수시로 요청하는 데이터요청결과값들을 미리 만들어 놓고 조건값만 바꿔서 조회하고 원하는 결과를 얻을 수 있으면 좋지 않을까? 그런게 있을까? 원하는 100%의 기능은 아니지만 Apache Zeppelin이라는 솔루션이 적합해 보였으며, Apache Zeppelin 또한 진입장벽이 높지 않아 큰 어려움 없이 도입을 했고, Elastic Stack에서 권한 관리를 하려면 x-pack라는 별도의 솔루션을 도입해야 하는고 이 x-pack은 유료이지만, Apache Zeppelin 이 녀석은 기가 막히게 무료로 사용자에 권한 관리까지 관리를 할 수 있었다.
 
 <img src="{{ '/images/20180301/20180301_06.png' }}" alt="">
+
+Zeppelin 도입은 성공적이였다.  
+많은 팀들이 효과적으로 Zeppelin을 사용하였다. 하지만, 역시 현업에서 요구하는 단 한가지 부분을 충족시키지 못했다.
+
+### 2.2.1. Zeppelin이 총족하지 못한 한가지
+
+    - Excel 로 다운받고 싶은데 데이터가 짤리네요?
+
+그렇다. Zeppelin 다운로드 기능은 MAX값을 넘기면 데이터를 짜른다. 우리팀에는 개발자가 없는 관계로 이 한계를 극복하지 못했다.
+
+****
+
+## 3. 본격적인 Hadoop ECO System을 구축하자.
+
+
 
 # 내용 작성중...
