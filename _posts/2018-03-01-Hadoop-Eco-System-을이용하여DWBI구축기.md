@@ -29,6 +29,7 @@ comments: true
 	- 무엇보다 풍부한 reference와 그나마 쉽게 구축할 수 있다는 점
 
 ****
+
 # 2. 데이터분석을 위한 BigData Infra 구축기
 ## 2.1. 진입장벽이 낮은 Elastic Stack 먼저 구축을 해보자
 
